@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto/Roboto-Regular.woff2);
+}
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+.block {
+    width: 1920px;
+    background: #1B191A;
+
+}
+.cards {
+    position: relative;
+    display: flex;
+    width: 1440px;
+    justify-content: space-evenly;
+    padding-top: 198px;
+    padding-bottom: 199px;
+    padding-left: 240px;
+    padding-right: 240px;
+    gap: 20px;
+  }
+.card-dog {
+    width: 467px;
+    background: #fff;
+    border-radius: 12px;
+  }
+.card-dog_img {
+    width: 467px;
+    height: 240px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .card-dog_svg-awards  {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 3px;
+  }
+  .card-dog_svg-awards2 {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 3px;
+  }
+  .awards1-Charley {
+    position: absolute;
+    left: 660px;
+    bottom: 630px;
+  }
+  .awards2-Charley {
+    position: absolute;
+    left: 660px;
+    bottom: 590px
+  }
+  .awards1-Lollyhope {
+    position: absolute;
+    left: 1150px;
+    bottom: 630px
+  }
+  .awards1-Bigbeer {
+    position: absolute;
+    right: 256px;
+    bottom: 630px
+  }
+  .awards2-Bigbeer {
+    position: absolute;
+    right: 257px;
+    bottom: 590px;
+  }
+  .card-dog_name {
+    position: absolute;
+    width: 93px;
+    bottom: 433px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 8px 16px 8px 16px;
+    border-radius: 0px 8px 0px 0px;
+    margin: 0;
+  }
+.card-dog_info {
+    color: #000;
+    padding: 16px 16px 16px;
+    margin: 0;
+  }
+  .card-dog_btn {
+    background: #8C32FF;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+  }
