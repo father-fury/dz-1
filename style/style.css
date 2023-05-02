@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', 'sans-serif';
+  color: #000;
+}
+
+.animals {
+  min-height: 877px;
+  width: 1920px;
+  background: #1B191A;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 198px;
+}
+
+.card-list__item {
+  width: 467px;
+  min-height: 480px;
+  list-style: none;
+}
+
+.card {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__top {
+  flex-shrink: 0;
+}
+
+.card__img {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card__rewards {
+  position: absolute;
+  list-style: none;
+  top: 16px;
+}
+
+.card__reward {
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 419px;
+}
+
+.card__reward-icon {
+
+}
+
+.card__name {
+  position: absolute;
+  top: 397px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px 16px 8px 16px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 8px 0px 0px;
+  color: #FFF;
+}
+
+.card__bottom {
+  background: #FFF;
+  padding: 8px 16px 16px 16px;
+  border-radius: 0 0 8px 8px;
+  margin-top: -4px;
+  min-height: 208px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+.card__description {
+  color: #000;
+  flex-grow: 1;
+}
+
+.btn {
+  background: #8C32FF;
+  border-radius: 4px; 
+  padding: 8px 16px 8px 16px;
+  color: #fff;  
+}
+
+.card__btn {
+  align-self: flex-start;
+}
