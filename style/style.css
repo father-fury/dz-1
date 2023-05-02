@@ -71,6 +71,10 @@ body {
   left: 419px;
 }
 
+.card__reward-icon {
+  margin-bottom: 3px;
+}
+
 .card__name {
   position: absolute;
   top: 397px;
