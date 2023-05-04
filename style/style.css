@@ -48,6 +48,7 @@ body {
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .card__top {
@@ -92,7 +93,6 @@ body {
   background: #FFF;
   padding: 8px 16px 16px 16px;
   border-radius: 0 0 8px 8px;
-  min-height: 208px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
