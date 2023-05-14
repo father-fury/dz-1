@@ -20,7 +20,6 @@ body {
 
 .animals {
   min-height: 877px;
-  width: 1920px;
   background: #1B191A;
   margin-left: auto;
   margin-right: auto;
@@ -34,12 +33,12 @@ body {
 
 .card-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 467px 467px 467px;
   padding-top: 198px;
+  gap: 20px;
 }
 
 .card-list__item {
-  width: 467px;
   min-height: 480px;
   list-style: none;
 }
@@ -57,7 +56,7 @@ body {
 }
 
 .card__img {
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px;
 }
 
 .card__rewards {
@@ -68,13 +67,10 @@ body {
 
 .card__reward {
   display: block;
-  position: absolute;
+  position: relative;
+  margin-bottom: 2px;
   top: 200px;
   left: 419px;
-}
-
-.card__reward-icon {
-  margin-bottom: 3px;
 }
 
 .card__name {
@@ -91,7 +87,6 @@ body {
 
 .card__bottom {
   background: #FFF;
-  padding: 8px 16px 16px 16px;
   border-radius: 0 0 8px 8px;
   display: flex;
   flex-direction: column;
@@ -102,6 +97,7 @@ body {
 .card__description {
   color: #000;
   flex-grow: 1;
+  padding: 16px 16px 16px 16px;
 }
 
 .btn {
@@ -113,4 +109,6 @@ body {
 
 .card__btn {
   align-self: flex-start;
+  margin-bottom: 16px;
+  margin-left: 16px;
 }
